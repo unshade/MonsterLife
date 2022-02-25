@@ -1,0 +1,94 @@
+.monster {
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+    margin-left: 50px;
+
+}
+
+#monster {
+    border-radius: 5px;
+    background-color: orange;
+    width: 150px;
+    border: 10px yellow solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 4px black;
+    margin-bottom: 2em;
+}
+
+#actionbox {
+    border: 1px solid grey;
+    width: 500px;
+    overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #0b0d0e;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-bottom: 2em;
+}
+
+#actionbox > p {
+    margin: 0 ;
+}
+
+ul#status {
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', sans-serif;
+    border-radius: 200px;
+}
+
+ul#status li {
+    margin-left : 20px;
+}
+
+button {
+    width: 75px;
+    height: 40px;
+    background-color: deepskyblue;
+    border: 0;
+    margin-right: 8px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+body {
+    background-image: url(../img/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding: 10px;
+    color: #00000047;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+.button-action {
+    display: flex;
+    justify-content: center;
+}
+
+#tristan {
+    text-align: center;
+    margin-top: 3em;
+}
